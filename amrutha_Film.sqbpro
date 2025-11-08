@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="" readonly="0" foreign_keys="" case_sensitive_like="" temp_store="" wal_autocheckpoint="" synchronous=""/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="1052"/><column_width id="4" width="0"/></tab_structure><tab_browse><table title="." custom_title="0" dock_id="3" table="0,0:"/><dock_state state="000000ff00000000fd00000001000000020000047b000002e4fc0100000003fb000000160064006f0063006b00420072006f007700730065003101000000000000047b0000000000000000fb000000160064006f0063006b00420072006f007700730065003201000000000000047b0000000000000000fb000000160064006f0063006b00420072006f00770073006500330100000000ffffffff0000011e00ffffff000002690000000000000004000000040000000800000008fc00000000"/><default_encoding codec=""/><browse_table_settings/></tab_browse><tab_sql><sql name="SQL 1*">CREATE TABLE films(
+SINo INTEGER PRIMARY KEY AUTOINCREMENT,
+Film VARCHAR(30),
+Director VARCHAR(40),
+YEAR VARCHAR(10),
+Language VARCHAR(20),
+Genre VARCHAR(50));
+</sql><sql name="SQL 2*">INSERT INTO films(Film,Director,Year,Language,Genre) VALUES (
+'AVATAR','James Cameron',2009,'English','action,adventure,SCI-FICTION,Fantacy');
+
+INSERT INTO films(Film,Director,Year,Language,Genre) VALUES (
+'Avengers:Age of Ultron','Jhos Wheden',2015,'English','action,adventure,Sci-FI,fantacy');
+
+INSERT INTO films(Film,Director,Year,Language,Genre) VALUES (
+'Interstellar','Christopher Nolan',2014,'English','Sci-FI');
+
+INSERT INTO films(Film,Director,Year,Language,Genre) VALUES (
+'Titanic','James cameron',1997,'English','Romance,drama,action,adventure');
+
+INSERT INTO films(Film,Director,Year,Language,Genre) VALUES (
+'Insidious','James wan',2011,'E1nglish','horror');</sql><sql name="SQL 3*"> SELECT * FROM films;</sql><current_tab id="2"/></tab_sql></sqlb_project>
